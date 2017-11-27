@@ -24,7 +24,7 @@ body {
   margin: 0;
 }
 
-li {
+li a{
   border: 1px solid #a63f38;
   width: 33.33%;
   float: right;
@@ -46,7 +46,7 @@ a {
   font-size: 1.125rem;
 }
 
-li:hover {
+li a:hover {
   background-color: #a63f38;
 }
 
