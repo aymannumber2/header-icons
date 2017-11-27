@@ -24,26 +24,22 @@ body {
   margin: 0;
 }
 
-li a{
+li a {
   border: 1px solid #a63f38;
   width: 33.33%;
   float: right;
   text-align: center;
   padding-top: .5em;
   padding-bottom: .5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
 }
 
 header {
   background-color: #d05c2e;
   padding: 1em 0 .001em;
   overflow: hidden;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  padding: 1em;
-  font-size: 1.125rem;
 }
 
 li a:hover {
