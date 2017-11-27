@@ -1,5 +1,5 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   text-align: center;
   color: white;
   box-sizing: border-box;
@@ -16,6 +16,7 @@ h1 {
 ul {
   padding: 0;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 body {
@@ -23,13 +24,11 @@ body {
 }
 
 li {
-  list-style-type: none;
-  display: inline-block;
   border: 1px solid black;
-  width: 33.33%
+  width: 33.33%;
   float: right;
   text-align: center;
-  padding: 0.5em;
+  padding: .5em;
   padding-left: 6em;
   padding-right: 6em;
 
@@ -37,7 +36,8 @@ li {
 
 header {
   background-color: #d05c2e;
-  padding: 1em 0em 0.001em 0em;
+  padding: 1em 0 .001em;
+  overflow: hidden;
 }
 
 a {
@@ -49,4 +49,17 @@ a {
 
 li:hover {
   background-color: #a63f38;
+}
+
+.grain-left {
+  float: left;
+}
+
+.grain-right {
+  float: right;
+}
+
+img {
+  width: 40px;
+  padding: .4rem 0;
 }
