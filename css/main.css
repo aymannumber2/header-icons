@@ -17,6 +17,7 @@ ul {
   padding: 0;
   margin-bottom: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 body {
@@ -24,14 +25,12 @@ body {
 }
 
 li {
-  border: 1px solid black;
+  border: 1px solid #a63f38;
   width: 33.33%;
   float: right;
   text-align: center;
-  padding: .5em;
-  padding-left: 6em;
-  padding-right: 6em;
-
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 header {
